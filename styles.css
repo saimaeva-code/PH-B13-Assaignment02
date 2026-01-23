@@ -12,6 +12,7 @@
   font-optical-sizing: auto;
  
 }
+/* navbar */
 nav{
     padding-top: 16px;
     padding-bottom: 16px;
@@ -44,7 +45,7 @@ border-radius: 10000px;
   font-size: 1rem;
   font-weight: 600;
 }
-
+/* hero section */
 #hero{
     height: 760px;
     background-image: url(./assets/hero-bg.png);
