@@ -13,12 +13,12 @@
  
 }
 nav{
-    padding-top: 36.5px;
-    padding-bottom: 36.5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     display: flex;
     justify-content: space-around;
   align-items: center;
-  
+  border-bottom: 1px solid #FFFFFF;
 }
 nav h1{
     color: #FFFFFF;
@@ -46,21 +46,69 @@ border-radius: 10000px;
 }
 
 #hero{
-     background-image: url(./assets/hero-bg.png); 
+    height: 760px;
+    background-image: url(./assets/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     position: relative;
-    width: 100%;
-   
+}
+.img-container{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 40px;
 }
 .main-img{
+    width: 100%;
+    height: 100%;
+    /* z-index: 1; */
+}
+.overlay-img{
     position: absolute;
-     width:350px;
-     height: 350px;
     top: 50%;
-    left:50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    
+    width: 116px;
 }
 
+.hero-contant h1{
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.hero-contant p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-bottom: 24px;
+}
+.btn-primary{
+    width: 201px;
+    padding-top: 12px;
+   margin-right: 8px;
+}
+.fa-brands.fa-spotify{
+    margin-right: 8px;
+}
+.btn-secondery{
+   width: 147px;
+background: transparent;
+border: 1px solid #00FF88;
+border-radius: 10000;
+color: #00FF88;
+
+}
+.fa-regular.fa-envelope{
+  margin-right: 8px;  
+}
+
+
+/* about section */
 #about{
     padding-top: 50px;
     padding-bottom: 120px;
