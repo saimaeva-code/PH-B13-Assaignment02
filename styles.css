@@ -25,13 +25,7 @@ nav {
     border-bottom: 1px solid #FFFFFF;
 }
 
-nav h1 {
-    color: #FFFFFF;
-}
 
-.gradient {
-    color: linear-gradient(#F7E93F 0%, #FB09B4 51%, #9100F8 100%);
-}
 
 nav ul {
     list-style: none;
@@ -320,7 +314,7 @@ hr {
 .fa-solid.fa-clock {
     margin-right: 6px;
 }
-
+/* host section */
 .host-container {
     display: flex;
     align-items: flex-start;
@@ -347,4 +341,39 @@ hr {
     margin-top: 16px;
     display: flex;
     gap: 8px;
+}
+/* footer section */
+#footer{
+    height: 412px;
+    background-image: url(./assets/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.footer-logo {
+margin-bottom: 32px;
+    
+}
+.footer-icon{
+display: flex;
+ gap: 40px;
+   color: #FFFFFF;
+   margin-bottom: 32px;
+}
+.footer-img{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.footer-img img{
+    margin-right: 8px;
+}
+.copyright{
+    color: #FFFFFF;
 }
